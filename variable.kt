@@ -18,5 +18,11 @@ val count: Int
 In this line of code, an assigned value is provided, so you can omit the data type:
 
 val count = 2
-*/
 val count = 2
+
+*/
+fun main() {
+    val unreadCount = 5
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
+}

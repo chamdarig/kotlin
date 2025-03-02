@@ -63,3 +63,8 @@ This practice makes your code safer.
 Using val ensures that variables won't get updated in your program if you don't expect them to. 
 Once a val is assigned a value, it always stays that value.
 */
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+}

@@ -37,6 +37,10 @@ fun main() {
     println("$photosDeleted photos deleted")
     println("${numberOfPhotos - photosDeleted} photos left")
 }
+
+Notice the error says that the val can't be reassigned. 
+The error is on the third line of the program, which tries to change the value of the cartTotal variable to 20. 
+The val cartTotal can't be reassigned to another value (20) after it's been assigned an initial value (0).
 */
 fun main() {
     val cartTotal = 0

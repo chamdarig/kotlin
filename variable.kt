@@ -50,9 +50,16 @@ fun main() {
     cartTotal = 20
     println("Total: $cartTotal")
 }
-*/
+
 fun main() {
     var cartTotal = 0
     cartTotal = 20
     println("Total: $cartTotal")
 }
+
+Remember that you should only use var to declare a variable if you expect the value to change. 
+Otherwise you should default to using val to declare a variable. 
+This practice makes your code safer. 
+Using val ensures that variables won't get updated in your program if you don't expect them to. 
+Once a val is assigned a value, it always stays that value.
+*/

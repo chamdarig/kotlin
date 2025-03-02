@@ -44,9 +44,15 @@ The val cartTotal can't be reassigned to another value (20) after it's been assi
 
 val keyword - Use when you expect the variable value will not change.
 var keyword - Use when you expect the variable value can change.
-*/
+
 fun main() {
     val cartTotal = 0
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+*/
+fun main() {
+    var cartTotal = 0
     cartTotal = 20
     println("Total: $cartTotal")
 }

@@ -41,6 +41,9 @@ fun main() {
 Notice the error says that the val can't be reassigned. 
 The error is on the third line of the program, which tries to change the value of the cartTotal variable to 20. 
 The val cartTotal can't be reassigned to another value (20) after it's been assigned an initial value (0).
+
+val keyword - Use when you expect the variable value will not change.
+var keyword - Use when you expect the variable value can change.
 */
 fun main() {
     val cartTotal = 0

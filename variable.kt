@@ -23,9 +23,17 @@ val count = 2
 For a string template, you learned that you can put the $ symbol before a single variable name. 
 However, if you have a more complex expression, you must enclose the expression in curly braces with the $ symbol before the curly braces: ${unreadCount + readCount}. 
 The expression within the curly braces, unreadCount + readCount, evaluates to 105. Then the value 105 is substituted within the string literal.
-*/
+
 fun main() {
     val unreadCount = 5
     val readCount = 100
     println("You have ${unreadCount + readCount} total messages in your inbox.")
+}
+*/
+fun main() {
+    val numberOfPhotos = 100
+    val photosDeleted = 10
+    println("$numberOfPhotos photos")
+    println("$photosDeleted photos deleted")
+    println("${numberOfPhotos - photosDeleted} photos left")
 }
